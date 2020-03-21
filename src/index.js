@@ -2,7 +2,7 @@
 exports.min = function min (array) {
   var minarr = array[0];
     for(i = 1; i < array.length; i++){
-        if(array[i] < array[i - 1]) {
+        if(array[i] < minarr) {
             minarr = array[i];
         }
     }
@@ -12,7 +12,7 @@ exports.min = function min (array) {
 exports.max = function max (array) {
   var maxarr = array[0];
     for(i = 1; i < array.length; i++){
-        if(array[i] > array[i - 1]) {
+        if(array[i] > maxarr) {
             maxarr = array[i];
         }
     }
