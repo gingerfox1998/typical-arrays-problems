@@ -1,7 +1,7 @@
 
 exports.min = function min (array) {
-  var minarr = array[0];
     if((array.length != 0) && (array != undefined)) {
+        var minarr = array[0];
         for(i = 1; i < array.length; i++){
             if(array[i] < minarr) {
                 minarr = array[i];
