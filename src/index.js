@@ -24,6 +24,6 @@ exports.avg = function avg (array) {
     for(i = 0; i < array.length; i++){
         avgarr = avgarr + array[i];
     }
-    avgarr = avgarr / (array.length - 1);
+    avgarr = avgarr / array.length;
   return avgarr;
 }
