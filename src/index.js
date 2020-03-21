@@ -7,11 +7,9 @@ exports.min = function min (array) {
                 minarr = array[i];
             }
         }
+        return minarr;
     }
-    else {
-        minarr = 0;
-    }
-  return minarr;
+    return 0;
 }
 
 exports.max = function max (array) {
